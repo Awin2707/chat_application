@@ -1,0 +1,17 @@
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background: linear-gradient(135deg, #8EC5FC 0%, #5B86E5 35%, #4A5FD0 65%, #3B3FA6 85%, #2C2F7A 100%);
+}
+
+.card {
+  background: rgba(0, 0, 0, 0.10);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 20px;
+  padding: 20px;
+}
